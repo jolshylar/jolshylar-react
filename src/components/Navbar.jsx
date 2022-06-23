@@ -16,10 +16,10 @@ function Navbar() {
         <h1>Jolshylar</h1>
       </div>
       <div className="links">
-        <a href="https:/github.com/jolshylar/website">
+        <a href="https://github.com/jolshylar/website">
           <AiFillGithub style={styles} />
         </a>
-        <a href="https:/instagram.com/jolshylar">
+        <a href="https://instagram.com/jolshylar">
           <AiFillInstagram style={styles} />
         </a>
         <a href="https://discord.gg/6dSpCGtJuB">
