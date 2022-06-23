@@ -32,7 +32,7 @@ const data = [
     role: "Speaker, Leader",
     portfolio: null,
     email: "auganali3@gmail.com",
-    quote: "Sometimes all I think abou chew.",
+    quote: "I got black, I got white, What u want?",
     interests: [],
   },
   {
@@ -45,7 +45,7 @@ const data = [
     interests: [],
   },
   {
-    element: "food",
+    element: "money",
     name: "Imanali Koksal",
     role: "Game Developer",
     portfolio: null,
@@ -55,7 +55,7 @@ const data = [
     interests: [],
   },
   {
-    element: "food",
+    element: "visual",
     name: "Altynai Zheniskyzy",
     role: "SMM Management",
     portfolio: null,
@@ -64,7 +64,7 @@ const data = [
     interests: [],
   },
   {
-    element: "food",
+    element: "snow",
     name: "Dulat Tursynbai",
     role: "Musical Producer, Designer",
     portfolio: null,
@@ -73,7 +73,7 @@ const data = [
     interests: [],
   },
   {
-    element: "food",
+    element: "robots",
     name: "Yerassyl Abilkassym",
     role: "Android/iOS Developer",
     portfolio: null,
