@@ -12,7 +12,7 @@ const data = [
     element: "fire",
     name: "Dastan Ozgeldi",
     role: "Full-Stack Developer",
-    portfolio: "jolshy.kz",
+    portfolio: null,
     email: "ozgdastan@gmail.com",
     quote: "After a week without programming life feels meaningless.",
     interests: [],

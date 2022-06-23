@@ -2,14 +2,26 @@ import "../styles/Project.css";
 import { BiLinkExternal } from "react-icons/bi";
 
 function Project({ project }) {
-  const preview = require(`../images/previews/${project.fileName}`);
+  const getPreview = (name) => {
+    try {
+      return require(`../images/previews/${name}.png`)
+    } catch (err) {
+      return require('../images/previews/unavailable.png')
+    }
+  }
 
   return (
     <div className="project-card">
-      <img className="preview" alt="project preview" src={preview} />
+      <img className="preview" alt="project preview" src={getPreview(project.name)} />
       <div className="content">
         <h2>{project.name}</h2>
-        <a href={project.url}>
+        <div className="content--info">
+          <ul>
+            <li>Stars: {project.stargazers_count} ⭐️</li>
+            <li>Language: {project.language}</li>
+          </ul>
+        </div>
+        <a href={project.homepage || project.html_url}>
           <button>
             <BiLinkExternal /> Visit
           </button>
