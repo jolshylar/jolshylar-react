@@ -11,10 +11,7 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="logo">
-        <img alt="logo" src={logo} />
-        <h1>Jolshylar</h1>
-      </div>
+      <img className="logo" alt="logo" src={logo} />
       <div className="links">
         <a href="https://github.com/jolshylar/jolshylar">
           <AiFillGithub style={styles} />
