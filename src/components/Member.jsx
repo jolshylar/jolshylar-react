@@ -5,7 +5,7 @@ function Member({ member }) {
 
   return (
     <div className="member-card">
-      <img className="photo" alt="member" src={photo}></img>
+      <img className="photo" alt="member" src={photo} />
       <div className="content">
         <h2>{member.name}</h2>
         <h3>{member.role}</h3>

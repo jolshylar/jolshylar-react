@@ -1,13 +1,13 @@
-import '../styles/Main.css'
-import About from './About';
-import MemberList from './MemberList';
-import Projects from './Projects';
+import "../styles/Main.css";
+import About from "./About";
+import MemberList from "./MemberList";
+import ProjectList from "./ProjectList";
 
 function Main() {
   return (
     <main>
       <About />
-      <Projects />
+      <ProjectList />
       <MemberList />
     </main>
   );
