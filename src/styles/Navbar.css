@@ -1,0 +1,28 @@
+nav {
+  background-color: #21222A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav img {
+  width: 40px;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  padding: 1rem;
+  color: #61DAFB;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+nav h3 {
+  color: #DEEBF8;
+}

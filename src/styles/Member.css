@@ -1,0 +1,41 @@
+.member-card {
+  padding: 1vw;
+  margin: 2vw;
+  border: 4px solid white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 60%;
+  max-width: 260px;
+}
+
+.member-card > img {
+  max-width: 256px;
+}
+
+.member-card p {
+  line-height: normal;
+}
+
+.member-card h3 {
+  font-weight: 100;
+  color: #F3BF99;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 30px;
+  width: 124px;
+  height: 30px;
+  color: #FFFFFF;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  color: #282D35;
+  transition: 0.5s;
+}
+
+a > button {
+  text-decoration: none;
+}

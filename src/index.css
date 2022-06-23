@@ -2,7 +2,19 @@
 
 body {
   margin: 0;
+  color: #FFFFFF;
+  background-color: #282D35;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 48px;
+  text-decoration: underline;
 }

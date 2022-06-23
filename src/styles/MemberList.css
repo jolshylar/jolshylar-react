@@ -1,0 +1,14 @@
+.members-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.members-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.members--title {
+  text-align: center;
+}

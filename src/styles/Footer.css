@@ -1,0 +1,25 @@
+footer {
+  /* Sticking to the Bottom */
+  padding: 1rem;
+  background-color: #21222A;
+  bottom: 0;
+  left: 0;
+  /* Displaying Content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer--section {
+  padding: 0 20px;
+}
+
+footer .footer--section > h3 {
+  color: #61DAFB;
+}
+
+footer .footer--section > ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}

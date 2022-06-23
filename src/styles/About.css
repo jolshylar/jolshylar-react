@@ -1,0 +1,12 @@
+.about {
+  padding: 20px;
+}
+
+.more-btn {
+  background-color: transparent;
+  border-radius: 30px;
+  border: 2px #ffff solid;
+  color: white;
+  width: 15%;
+  height: 30px;
+}
