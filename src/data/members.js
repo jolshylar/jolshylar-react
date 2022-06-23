@@ -5,7 +5,7 @@ const data = [
     role: "Frontend Developer",
     portfolio: null,
     email: "bekslambek22@gmail.com",
-    quote: "Underidoderidoderiododeridoo idoderiododeridoo government",
+    quote: "Underidoderidoderiododeridoo idoderiododeridoo government.",
     interests: [],
   },
   {
@@ -41,7 +41,7 @@ const data = [
     role: "Discord Server Owner",
     portfolio: null,
     email: "kabyletad@gmail.com",
-    quote: "Be nice. Be bald",
+    quote: "The ideal cannot be achieved, but it can be strived for.",
     interests: [],
   },
   {
@@ -49,8 +49,9 @@ const data = [
     name: "Imanali Koksal",
     role: "Game Developer",
     portfolio: null,
-    email: "a.kabylet@gmail.com",
-    quote: "Live every day as productive as someone who gets 250k at Hackathons",
+    email: "imashkoksal@gmail.com",
+    quote:
+      "Live every day as productive as someone who gets 250k at Hackathons.",
     interests: [],
   },
   {
@@ -59,7 +60,7 @@ const data = [
     role: "SMM Management",
     portfolio: null,
     email: "7770504@inbox.ru",
-    quote: "Visual jasaimyn",
+    quote: "Do not give up, the beginning is always the hardest.",
     interests: [],
   },
   {
@@ -72,14 +73,15 @@ const data = [
     interests: [],
   },
   {
-    element: "water",
+    element: "food",
     name: "Yerassyl Abilkassym",
     role: "Android/iOS Developer",
     portfolio: null,
-    email: "a.kabylet@gmail.com",
-    quote: "I pee'd on project, but still member",
+    email: "yerassyl.abylkassym@gmail.com",
+    quote:
+      "Enthusiastic student interested in engineering, machine learning and computer science.",
     interests: [],
-  }
+  },
 ];
 
 export default data;

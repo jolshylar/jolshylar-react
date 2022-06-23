@@ -1,5 +1,5 @@
 nav {
-  background-color: #21222A;
+  background-color: #21222a;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,11 +18,16 @@ nav .logo {
 nav h1 {
   margin: 0;
   padding: 1rem;
-  color: #61DAFB;
+  color: #61dafb;
   font-size: 2rem;
   text-decoration: none;
 }
 
 nav h3 {
-  color: #DEEBF8;
+  color: #deebf8;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
 }

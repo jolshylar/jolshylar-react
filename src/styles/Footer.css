@@ -1,7 +1,7 @@
 footer {
   /* Sticking to the Bottom */
   padding: 1rem;
-  background-color: #21222A;
+  background-color: #21222a;
   bottom: 0;
   left: 0;
   /* Displaying Content */
@@ -10,16 +10,24 @@ footer {
   justify-content: center;
 }
 
-footer .footer--section {
+.footer--section {
   padding: 0 20px;
 }
 
-footer .footer--section > h3 {
-  color: #61DAFB;
+.footer--section > h3 {
+  color: #61dafb;
 }
 
-footer .footer--section > ul {
+.footer--section > ul {
   list-style: none;
   padding: 0;
   text-align: center;
+}
+
+.footer--section li a {
+  margin-left: 4px;
+}
+
+.footer--section li svg {
+  padding-top: 6px;
 }

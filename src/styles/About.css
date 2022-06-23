@@ -1,23 +1,42 @@
 .about {
-  background-image: url('../images/bg.jpeg');
-  background-size: 100%;
+  background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   padding: 20px;
   height: 600px;
+  background-size: 100% 650px;
   text-align: center;
 }
 
+@media (max-width: 700px) {
+  .about {
+    height: max-content;
+    background-size: auto;
+  }
+}
+
 .more-btn {
+  margin-top: 40px;
+  font-size: 24px;
   background-color: transparent;
-  border-radius: 30px;
+  border-radius: 20px;
   border: 2px #ffff solid;
   color: white;
-  width: 15%;
-  height: 30px;
+  width: 150px;
+  height: 50px;
+  align-items: center;
 }
 
 .more-btn:hover {
   background-color: #ffffff;
   color: #282d35;
   transition: 0.5s;
+}
+
+.about a {
+  text-decoration: none;
+}
+
+.about p {
+  margin: 0;
+  font-size: 24px;
 }

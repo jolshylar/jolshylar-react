@@ -1,4 +1,5 @@
 import "../styles/Project.css";
+import { BiLinkExternal } from "react-icons/bi";
 
 function Project({ project }) {
   const preview = require(`../images/previews/${project.fileName}`);
@@ -9,7 +10,9 @@ function Project({ project }) {
       <div className="content">
         <h2>{project.name}</h2>
         <a href={project.url}>
-          <button>Visit</button>
+          <button>
+            <BiLinkExternal /> Visit
+          </button>
         </a>
         <p>{project.description}</p>
       </div>

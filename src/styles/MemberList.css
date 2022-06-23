@@ -9,6 +9,14 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+@media (max-width: 480px) {
+  .members-list {
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
 .members--title {
   text-align: center;
 }

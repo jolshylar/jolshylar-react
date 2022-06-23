@@ -1,4 +1,6 @@
 import "../styles/Member.css";
+import { AiTwotoneMail } from "react-icons/ai";
+import { FaSuitcase } from "react-icons/fa";
 
 function Member({ member }) {
   const photo = require(`../images/members/${member.element}.jpeg`);
@@ -11,11 +13,15 @@ function Member({ member }) {
         <h3>{member.role}</h3>
         {member.portfolio && (
           <a href={`https://${member.portfolio}`}>
-            <button>Portfolio</button>
+            <button>
+              <FaSuitcase /> Portfolio
+            </button>
           </a>
         )}
         <a href={`mailto:${member.email}`}>
-          <button className="emailButton">Email</button>
+          <button className="emailButton">
+            <AiTwotoneMail /> Email
+          </button>
         </a>
         <p>{member.quote}</p>
       </div>
