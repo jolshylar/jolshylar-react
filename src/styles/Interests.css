@@ -1,0 +1,13 @@
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+}
+
+.interests small {
+  margin: 3px;
+  font-size: 0.7em;
+  padding: 4px;
+  border: 1px solid #f3bf99;
+  border-radius: 5px;
+}

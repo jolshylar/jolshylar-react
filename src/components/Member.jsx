@@ -1,6 +1,6 @@
 import "../styles/Member.css";
-import { AiTwotoneMail } from "react-icons/ai";
-import { FaSuitcase } from "react-icons/fa";
+import { AiTwotoneMail, AiFillInstagram } from "react-icons/ai";
+import Interests from "./Interests";
 
 function Member({ member }) {
   const photo = require(`../images/members/${member.element}.png`);
@@ -11,21 +11,19 @@ function Member({ member }) {
       <div className="content">
         <h2>{member.name}</h2>
         <h3>{member.role}</h3>
-        {member.portfolio && (
-          <a href={`https://${member.portfolio}`}>
-            <button>
-              <FaSuitcase /> Portfolio
-            </button>
-          </a>
-        )}
         <a href={`mailto:${member.email}`}>
-          <button className="emailButton">
+          <button>
             <AiTwotoneMail /> Email
+          </button>
+        </a>
+        <a href={`https://instagram.com/${member.profile}`}>
+          <button>
+            <AiFillInstagram /> Instagram
           </button>
         </a>
         <p>{member.quote}</p>
       </div>
-      <div className="contacts"></div>
+      <Interests key={member.name} member={member} />
     </div>
   );
 }

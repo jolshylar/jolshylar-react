@@ -9,7 +9,7 @@ function MemberList() {
       <div className="members-container">
         <div className="members-list">
           {data.map((member) => (
-            <Member member={member} />
+            <Member key={member.element} member={member} />
           ))}
         </div>
       </div>
