@@ -2,15 +2,15 @@
 
 body {
   margin: 0;
-  color: #FFFFFF;
-  background-color: #282D35;
+  color: #ffffff;
+  background-color: #282d35;
   font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
 }
 
