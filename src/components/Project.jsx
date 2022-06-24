@@ -12,7 +12,7 @@ function Project({ project }) {
   };
 
   return (
-    <div className="project-card">
+    <div className="project-card" data-aos="flip-left">
       <img
         className="preview"
         alt="project preview"

@@ -5,7 +5,7 @@ import data from "../data/project";
 function ProjectList() {
   return (
     <div className="projects">
-      <h1 className="members--title">Our Projects</h1>
+      <h1 className="members--title" data-aos="fade-down">Our Projects</h1>
       <div className="project-container">
         <div className="project-list">
           {data.map((repo) => (

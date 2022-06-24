@@ -8,12 +8,6 @@
   max-width: 260px;
 }
 
-.member-card:hover {
-  margin-top: 1vh;
-  margin-bottom: 6vh;
-  transition: 0.2s;
-}
-
 .member-card > img {
   max-width: 256px;
 }

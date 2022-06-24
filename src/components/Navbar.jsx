@@ -11,8 +11,8 @@ function Navbar() {
 
   return (
     <nav>
-      <img className="logo" alt="logo" src={logo} />
-      <div className="links">
+      <img className="logo" alt="logo" src={logo} data-aos="fade-right"/>
+      <div className="links" data-aos="fade-left">
         <a href="https://github.com/jolshylar/jolshylar">
           <AiFillGithub style={styles} />
         </a>

@@ -6,7 +6,7 @@ function Member({ member }) {
   const photo = require(`../images/members/${member.element}.png`);
 
   return (
-    <div className="member-card">
+    <div className="member-card" data-aos="flip-left" data-aos-duration="50000">
       <img className="photo" alt="member" src={photo} />
       <div className="content">
         <h2>{member.name}</h2>
