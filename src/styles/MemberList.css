@@ -9,7 +9,7 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 980px) {
   .members-list {
     overflow-x: scroll;
     display: flex;

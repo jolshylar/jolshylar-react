@@ -8,6 +8,12 @@
   max-width: 260px;
 }
 
+.member-card:hover {
+  margin-top: 1vh;
+  margin-bottom: 6vh;
+  transition: 0.2s;
+}
+
 .member-card > img {
   max-width: 256px;
 }
@@ -25,10 +31,11 @@
 .member-card button {
   background-color: transparent;
   border: 1px solid white;
-  border-radius: 30px;
+  border-radius: 10px;
   width: 124px;
   height: 30px;
   color: #ffffff;
+  margin: 0 2px;
 }
 
 .member-card button:hover {
