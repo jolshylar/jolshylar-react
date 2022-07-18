@@ -1,24 +1,22 @@
 import "../styles/Member.css";
-import { AiTwotoneMail, AiFillInstagram } from "react-icons/ai";
+import { IoMail, IoLogoInstagram } from "react-icons/io5";
 import Interests from "./Interests";
 
 function Member({ member }) {
-  const photo = require(`../images/members/${member.element}.png`);
-
   return (
     <div className="member-card" data-aos="flip-left" data-aos-duration="50000">
-      <img className="photo" alt="member" src={photo} />
+      <img className="photo" alt="member" src={`/images/members/${member.element}.png`} />
       <div className="content">
         <h2>{member.name}</h2>
         <h3>{member.role}</h3>
         <a href={`mailto:${member.email}`}>
           <button>
-            <AiTwotoneMail /> Email
+            <IoMail /> Email
           </button>
         </a>
         <a href={`https://instagram.com/${member.profile}`}>
           <button>
-            <AiFillInstagram /> Instagram
+            <IoLogoInstagram /> Instagram
           </button>
         </a>
         <p>{member.quote}</p>

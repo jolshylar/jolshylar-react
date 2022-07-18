@@ -1,40 +1,35 @@
 import "../styles/Project.css";
-import { BiLinkExternal } from "react-icons/bi";
-import { AiOutlineStar } from "react-icons/ai";
+import { IoStar, IoLink } from "react-icons/io5";
 
 function Project({ project }) {
-  const getPreview = (name) => {
-    try {
-      return require(`../images/previews/${name}.png`);
-    } catch (err) {
-      return require("../images/previews/unavailable.png");
-    }
-  };
+  const iconStyles = { width: 12, height: 12 }
 
   return (
     <div className="project-card" data-aos="flip-left">
-      <img
-        className="preview"
-        alt="project preview"
-        src={getPreview(project.name)}
-      />
-      <div className="content">
-        <h2>{project.name}</h2>
-        <div className="content--info">
-          <ul>
-            <li>
-              Stars: {project.stargazers_count} <AiOutlineStar />
-            </li>
-            <li>Language: {project.language}</li>
-          </ul>
+      <>
+        <img
+          className="preview"
+          alt="project preview"
+          src={`/images/previews/${project.name}.png`}
+        />
+        <div className="content">
+          <h2>{project.name}</h2>
+          <div className="content--info">
+            <ul>
+              <li style={{ alignItems: "center" }}>
+                Stars: {project.stargazers_count} <IoStar style={iconStyles} />
+              </li>
+              <li>Language: {project.language}</li>
+            </ul>
+          </div>
+          <a href={project.homepage || project.html_url}>
+            <button>
+              <IoLink style={iconStyles} /> Visit
+            </button>
+          </a>
+          <p>{project.description}</p>
         </div>
-        <a href={project.homepage || project.html_url}>
-          <button>
-            <BiLinkExternal /> Visit
-          </button>
-        </a>
-        <p>{project.description}</p>
-      </div>
+      </>
     </div>
   );
 }

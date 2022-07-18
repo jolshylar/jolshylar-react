@@ -1,5 +1,5 @@
 import "../styles/About.css";
-import { AiFillInstagram } from "react-icons/ai";
+import { IoLogoInstagram } from "react-icons/io5";
 
 function About() {
   const styles = {
@@ -17,7 +17,7 @@ function About() {
       <p>As of today, we have 10 people, with different sets of skills.</p>
       <a href="https://www.instagram.com/stories/highlights/17916904040361247/">
         <button className="more-btn">
-          <AiFillInstagram style={styles} /> More
+          <IoLogoInstagram style={styles} /> More
         </button>
       </a>
     </div>
