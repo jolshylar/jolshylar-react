@@ -1,6 +1,6 @@
-import Member from "./Member";
-import data from "../data/members";
-import "../styles/MemberList.css";
+import Member from "./MemberCard";
+import data from "../../data/members";
+import "../../styles/MemberList.css";
 
 function MemberList() {
   return (

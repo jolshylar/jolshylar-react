@@ -1,4 +1,4 @@
-import "../styles/Project.css";
+import "../../styles/ProjectCard.css";
 import { IoStar, IoLink } from "react-icons/io5";
 
 function Project({ project }) {

@@ -1,6 +1,6 @@
-import "../styles/Member.css";
+import "../../styles/MemberCard.css";
 import { IoMail, IoLogoInstagram } from "react-icons/io5";
-import Interests from "./Interests";
+import Interests from "../Interests";
 
 function Member({ member }) {
   return (

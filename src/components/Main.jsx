@@ -1,7 +1,7 @@
 import "../styles/Main.css";
 import About from "./About";
-import MemberList from "./MemberList";
-import ProjectList from "./ProjectList";
+import MemberList from "./Members/MemberList";
+import ProjectList from "./Projects/ProjectList";
 
 function Main() {
   return (

@@ -1,5 +1,5 @@
-import "../styles/ProjectList.css";
-import Project from "./Project";
+import "../../styles/ProjectList.css";
+import Project from "./ProjectCard";
 import { useState, useEffect } from "react";
 
 function ProjectList() {
